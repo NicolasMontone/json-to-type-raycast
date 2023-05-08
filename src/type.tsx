@@ -11,6 +11,7 @@ export default function Command() {
     if (!jsonInput) return
 
     try {
+      setJsonResult('')
       const json = JSON.parse(jsonInput.replace(/'/g, '"'))
 
       const type = json2ts(JSON.stringify(json), {
@@ -33,7 +34,7 @@ export default function Command() {
         <ActionPanel>
           <ActionPanel.Section>
             <Action.CopyToClipboard
-              title="Copy Translated"
+              title="Copy JSON"
               content={jsonResult || ''}
               icon={Icon.CopyClipboard}
             />
