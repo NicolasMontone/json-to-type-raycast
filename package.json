@@ -1,7 +1,7 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "json-to-type-raycast",
-  "title": "Json to type",
+  "title": "Json To Type",
   "description": "Easily transform your JSON to type",
   "icon": "typescript.png",
   "author": "NicolasMontone",
@@ -13,8 +13,8 @@
   "commands": [
     {
       "name": "type",
-      "title": "Json to Type",
-      "description": "Transform your json to type",
+      "title": "Json To Type",
+      "description": "Transform your JSON to type",
       "mode": "view"
     }
   ],
